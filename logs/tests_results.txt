@@ -1,0 +1,20 @@
+test_absolute (__main__.TestExercice) ... ok
+test_factorial (__main__.TestExercice) ... ok
+test_prefixes (__main__.TestExercice) ... ok
+test_summation (__main__.TestExercice) ... ok
+test_verify_ages (__main__.TestExercice) ... ERROR
+
+======================================================================
+ERROR: test_verify_ages (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 72, in test_verify_ages
+    output = exercice.verify_ages(groups)
+  File "/home/runner/work/2021h-ch5-exercices-aymanechalh/2021h-ch5-exercices-aymanechalh/exercice.py", line 64, in verify_ages
+    for c in range (1, len(List)):
+TypeError: object of type 'GenericMeta' has no len()
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+FAILED (errors=1)
